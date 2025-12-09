@@ -1,0 +1,50 @@
+.navContainer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Step4: row */
+.navBody {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.navBox{
+    text-align: center;
+    background-color: grey;
+    color: black;
+    padding: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.heroContainer{
+    max-width:1200px;
+    margin:auto;
+    border: 1px solid black;
+    margin: 0rem 26rem;
+    background-color:rgb(250, 242, 148);
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family:serif;
+}
+.heroBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.heroBlock{
+    padding: 1rem 1rem;
+}
+.heroBlock input{
+    padding: 0.6rem 1rem;
+}
+.heroBlock button{
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+.heroBlock select{
+    /* padding: 1rem 1rem; */
+    text-align: center;
+    font-size: 1.2rem;
+}
